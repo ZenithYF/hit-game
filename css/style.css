@@ -1,0 +1,128 @@
+/* scence */
+#stage{
+    width:750px;
+    height:550px;
+    background:url(../img/bg.png);
+    margin-left:20%;
+    position: relative;   
+    user-select: none;
+}
+
+/* hammer */
+#hammer{
+    position: absolute;
+    top:0;
+    left:0;
+    cursor:none; 
+    margin-left:-320px;
+    margin-top:-50px;
+    user-select: none;
+    z-index:90;
+}
+
+
+/* score */
+#score{
+    position: absolute;
+    width:115px;
+    height:20px;
+    left:230px;
+    top:198px;
+    font-weight: bold;
+    z-index:3;
+    /* border: 1px solid black; */
+    text-align: center;
+}
+
+/* timer counter */
+#time{
+    position: absolute;
+    width:115px;
+    height:20px;
+    left:485px;
+    top:198px;
+    font-weight: bold;
+    z-index:3;
+    /* border: 1px solid black; */
+    text-align: center;
+}
+
+/* restart button */
+#restart{
+    cursor: pointer;
+    position:fixed;
+    top:200px;
+    left:1100px;;
+    height:30px;
+    width:100px;
+    background-color:grey;
+    text-align: center;
+    line-height: 30px;
+    font-weight: bold;
+}
+
+#restart:hover{
+ background-color:#ff6700;
+}
+
+
+/* mouse window */
+#window1, #window2, #window3,
+#window4, #window5, #window6,
+#window7, #window8, #window9{
+    position:absolute;
+    width:102px;
+    height:103px;
+    overflow:hidden;  
+}
+
+#window1 {
+    top:150px;
+    left:140px; 
+}
+
+#window2 {
+    top:150px;
+    left:330px; 
+}
+
+#window3 {
+    top:150px;
+    left:530px; 
+}
+
+#window4 {
+    top:250px;
+    left:120px; 
+}
+
+#window5 {
+    top:250px;
+    left:335px; 
+}
+
+#window6 {
+    top:250px;
+    left:530px; 
+}
+
+#window7 {
+    top:340px;
+    left:110px; 
+}
+
+#window8 {
+    top:350px;
+    left:340px; 
+}
+
+#window9 {
+    top:350px;
+    left:550px; 
+}
+
+div [id^="window"] img {
+    position: absolute;
+    top:103px;
+    left:0;    
+}
